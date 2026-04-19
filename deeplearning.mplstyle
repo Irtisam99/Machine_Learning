@@ -20,10 +20,11 @@ axes.facecolor: ffffff  # white
 axes.labelsize: large
 axes.axisbelow: true
 axes.grid: False
-axes.edgecolor: f0f0f0
-axes.linewidth: 3.0
+axes.edgecolor: 444444
+axes.linewidth: 1.5
 axes.titlesize: x-large
-
+axes.spines.top: True    # Ensure the box is closed if desired
+axes.spines.right: True
 patch.edgecolor: f0f0f0
 patch.linewidth: 0.5
 
@@ -33,10 +34,21 @@ grid.linestyle: -
 grid.linewidth: 1.0
 grid.color: cbcbcb
 
-xtick.major.size: 0
-xtick.minor.size: 0
-ytick.major.size: 0
-ytick.minor.size: 0
+
+xtick.minor.size: 6
+ytick.minor.size: 6
+
+xtick.major.size: 5
+xtick.major.width: 1
+xtick.labelsize: medium
+ytick.major.size: 5
+ytick.major.width: 1
+ytick.labelsize: medium
+
+text.color: 000000
+axes.labelcolor: 000000
+xtick.color: 000000
+ytick.color: 000000
 
 savefig.edgecolor: f0f0f0
 savefig.facecolor: f0f0f0
